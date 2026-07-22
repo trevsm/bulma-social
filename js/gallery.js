@@ -61,7 +61,7 @@
   const hiddenExport = document.getElementById("hidden-export");
   const hiddenClear = document.getElementById("hidden-clear");
 
-  const CACHE_KEY = "artwork-dimensions-v6";
+  const CACHE_KEY = "artwork-dimensions-v7";
   const HIDDEN_STORAGE_KEY = "artwork-user-hidden-v1";
   let artworks = [];
   let hiddenMeta = new Map();
@@ -87,6 +87,14 @@
     /hummingbird|interrupted reading|abduction of the sabine|\bgleaners\b|\bangelus\b|dressing for the carnival|the source met/i,
     /installation view|gallery view|exhibition view|overall\.jpg|room view|people viewing/i,
     /\bmrs\.|portrait of|manuel garcia|edwin forrest/i,
+    /rutherford|nightmare hall|whitman publishing/i,
+    /army photography|fmwrc/i,
+    /\banagoria\b|gasometer|oberhausen.*der sch[oö]ne schein/i,
+    /d[üu]lmen.*2017|dietmar rabich/i,
+    /interior.*in the museum|exterior.*in the museum/i,
+    /hell and the flood p\d|hieronymus bosch 0\d{2}(?:\s|$|\()/i,
+    /reliquary.*0[1-3] by shakko/i,
+    /\(\d{11,}\)/,
   ];
 
   const MUSEUM_ID_EXCEPTION = /200[12][-.]|nga\s*\d{5}|met\s*dp|11001|57002|2007\.|1971\./i;
@@ -305,11 +313,70 @@
     });
     return btn;
   }
+  function normalizeArtist(artist) {
+    const cleaned = (artist || "")
+      .toLowerCase()
+      .replace(/^(after|follower of|school of|attributed to|circle of|print made by:)\s+/, "")
+      .replace(/[^\w\s]/g, " ")
+      .trim();
+    const parts = cleaned.split(/\s+/).filter(Boolean);
+    return parts[parts.length - 1] || cleaned;
+  }
+
+  function normalizeTitle(title) {
+    return (title || "")
+      .replace(/\([^)]*\)/g, "")
+      .replace(/\b(detail|fragment|study|section|panel|interior|exterior|google art project)\b.*/gi, "")
+      .replace(/\b\d{2,}\.\d+\b.*/g, "")
+      .replace(/[^\w\s]/g, " ")
+      .toLowerCase()
+      .replace(/\s+\d{1,2}$/, "")
+      .trim()
+      .replace(/\s+/g, " ");
+  }
+
+  function artworkScore(art) {
+    let score = 0;
+    const blob = `${art.title || ""} ${art.src || ""}`;
+
+    if (art.src.includes("960px-")) score += 30;
+    else if (art.src.includes("800px-")) score += 20;
+    if (art.professional) score += 5;
+    if (art.year) score += 3;
+    if (/\b(detail|fragment|section|panel|study|fxd|interior|exterior)\b/i.test(blob)) score -= 40;
+    if (/\b0[1-9]\b|\bp[1-9]\b/i.test(blob)) score -= 25;
+    if (/google art project|metropolitan museum|detroit institute|yale university|nga\.|ng\.m\./i.test(blob)) {
+      score -= 6;
+    }
+    score -= Math.min(Math.floor((art.title || "").length / 20), 10);
+
+    return score;
+  }
+
   function dedupeArtworks(items) {
+    const bySrc = new Map();
+    const byWork = new Map();
+
+    items.forEach((art) => {
+      if (bySrc.has(art.src)) return;
+      bySrc.set(art.src, art);
+
+      const key = `${normalizeArtist(art.artist)}::${normalizeTitle(art.title)}`;
+      if (key.length < 12) {
+        byWork.set(`${art.src}::${byWork.size}`, art);
+        return;
+      }
+
+      const existing = byWork.get(key);
+      if (!existing || artworkScore(art) > artworkScore(existing)) {
+        byWork.set(key, art);
+      }
+    });
+
     const seen = new Set();
     const unique = [];
 
-    items.forEach((art) => {
+    byWork.forEach((art) => {
       if (seen.has(art.src)) return;
       seen.add(art.src);
       unique.push(art);
