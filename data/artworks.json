@@ -2465,11 +2465,11 @@
   },
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Russia_%28Moscow%2C_Tretyanov_Gallery%29_The_Rainbow%2C_a_famous_painting_of_Aiazovsky_%2836515236431%29.jpg/960px-Russia_%28Moscow%2C_Tretyanov_Gallery%29_The_Rainbow%2C_a_famous_painting_of_Aiazovsky_%2836515236431%29.jpg",
-    "title": "Russia (Moscow, Tretyanov Gallery) The Rainbow, a famous painting of Aiazovsky (36515236431)",
-    "artist": "Unknown",
+    "title": "The Rainbow",
+    "artist": "Ivan Aivazovsky",
     "year": null,
-    "professional": false,
-    "style": "Landscape"
+    "professional": true,
+    "style": "Russian Realism"
   },
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Summer_landscape._Pines_%28Savrasov%29.jpg",
@@ -3549,7 +3549,7 @@
     "artist": "Unknown",
     "year": null,
     "professional": false,
-    "style": "Landscape"
+    "style": "Barbizon School"
   },
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Heade_-_Haystacks_-_HNT.jpg/960px-Heade_-_Haystacks_-_HNT.jpg",
@@ -4389,7 +4389,7 @@
     "artist": "Unknown",
     "year": null,
     "professional": false,
-    "style": "Landscape"
+    "style": "Barbizon School"
   },
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Pastoral_Landscape_by_Alvan_Fisher%2C_1854.jpg/960px-Pastoral_Landscape_by_Alvan_Fisher%2C_1854.jpg",
