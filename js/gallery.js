@@ -6,6 +6,7 @@
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxCaption = document.getElementById("lightbox-caption");
   const lightboxClose = document.getElementById("lightbox-close");
+  const countEl = document.getElementById("count");
 
   let artworks = [];
   let activeFilter = "All";
@@ -119,6 +120,9 @@
   loadArtworks()
     .then(() => {
       loading.classList.add("hidden");
+      if (countEl) {
+        countEl.textContent = `${artworks.length.toLocaleString()} paintings`;
+      }
       renderFilters();
       renderGallery();
     })

@@ -54,6 +54,13 @@ body {
 .tagline {
   color: var(--muted);
   font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+}
+
+.count {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
   margin: 0 0 1.5rem;
 }
 
