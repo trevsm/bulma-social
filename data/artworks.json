@@ -808,30 +808,6 @@
     "style": "Hudson River School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sanford_Robinson_Gifford_-_Sketchbook%2C_page_37-_Maine_Landscape_Vignittes_-_1971.116.q_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-Sanford_Robinson_Gifford_-_Sketchbook%2C_page_37-_Maine_Landscape_Vignittes_-_1971.116.q_-_Cleveland_Museum_of_Art.tif.jpg",
-    "title": "Sketchbook, page 37- Maine Landscape Vignittes - 1971.116.q - Cleveland Museum of Art",
-    "artist": "Sanford Robinson Gifford",
-    "year": 1971,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sanford_Robinson_Gifford_-_Sketchbook%2C_page_39-_Maine_Landscape_Vignittes_-_1971.116.r_-_Cleveland_Museum_of_Art.jpg/960px-Sanford_Robinson_Gifford_-_Sketchbook%2C_page_39-_Maine_Landscape_Vignittes_-_1971.116.r_-_Cleveland_Museum_of_Art.jpg",
-    "title": "Sketchbook, page 39- Maine Landscape Vignittes - 1971.116.r - Cleveland Museum of Art",
-    "artist": "Sanford Robinson Gifford",
-    "year": 1971,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sanford_Robinson_Gifford_-_Sketchbook%2C_page_40-_Maine_Landscape_-_1971.116.s_-_Cleveland_Museum_of_Art.jpg/960px-Sanford_Robinson_Gifford_-_Sketchbook%2C_page_40-_Maine_Landscape_-_1971.116.s_-_Cleveland_Museum_of_Art.jpg",
-    "title": "Sketchbook, page 40- Maine Landscape - 1971.116.s - Cleveland Museum of Art",
-    "artist": "Sanford Robinson Gifford",
-    "year": 1971,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sanford_Robinson_Gifford_-_Wilderness_-_Google_Art_Project.jpg/960px-Sanford_Robinson_Gifford_-_Wilderness_-_Google_Art_Project.jpg",
     "title": "Wilderness - Google Art Project",
     "artist": "Sanford Robinson Gifford",
@@ -1034,22 +1010,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Caspar_David_Friedrich_Paysage_de_Riesengebirge_avec_la_brume_montante.jpg/960px-Caspar_David_Friedrich_Paysage_de_Riesengebirge_avec_la_brume_montante.jpg",
     "title": "Paysage de Riesengebirge avec la brume montante",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08502.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08502.jpg",
-    "title": "Neubrandenburg ()-WUS08502",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08591.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08591.jpg",
-    "title": "Neubrandenburg ()-WUS08591",
     "artist": "Caspar David Friedrich",
     "year": null,
     "professional": true,
@@ -2952,14 +2912,6 @@
     "style": "Russian Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Savrasov_photo.JPG/960px-Savrasov_photo.JPG",
-    "title": "photo",
-    "artist": "Alexei Savrasov",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Constable_Salisbury_meadows.jpg/960px-Constable_Salisbury_meadows.jpg",
     "title": "Salisbury meadows",
     "artist": "John Constable",
@@ -3088,14 +3040,6 @@
     "style": "English Landscape"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Das_Eismeer_%28Caspar_David_Friedrich%29-WUS03283.jpg/960px-Das_Eismeer_%28Caspar_David_Friedrich%29-WUS03283.jpg",
-    "title": "Das Eismeer (Caspar David )-WUS03283",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Friedrich%2C_Caspar_David_-_Morning_in_the_Mountains.jpg/960px-Friedrich%2C_Caspar_David_-_Morning_in_the_Mountains.jpg",
     "title": "Caspar David - Morning in the Mountains",
     "artist": "Caspar David Friedrich",
@@ -3106,14 +3050,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Friedrich_-_Two_Men_Contemplating_the_Moon.jpg/960px-Friedrich_-_Two_Men_Contemplating_the_Moon.jpg",
     "title": "Two Men Contemplating the Moon",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Greifswalder_Marktplatz_mit_der_Familie_Friedrich_%28Caspar_David_Friedrich%29-WUS08480.jpg/960px-Greifswalder_Marktplatz_mit_der_Familie_Friedrich_%28Caspar_David_Friedrich%29-WUS08480.jpg",
-    "title": "Greifswalder Marktplatz mit der Familie (Caspar David )-WUS08480",
     "artist": "Caspar David Friedrich",
     "year": null,
     "professional": true,
@@ -3156,14 +3092,6 @@
     "title": "Jean-Baptiste-Camille c1850",
     "artist": "Jean-Baptiste-Camille Corot",
     "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg/960px-Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg",
-    "title": "Jean Baptiste Camille - Interrupted Reading - 1922.410 - Art Institute of Chicago",
-    "artist": "Jean-Baptiste-Camille Corot",
-    "year": 1922,
     "professional": true,
     "style": "Barbizon School"
   },
@@ -3600,14 +3528,6 @@
     "style": "Russian Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ivan_Aivazovsky.jpg",
-    "title": "Ivan",
-    "artist": "Ivan Aivazovsky",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ivan_Aivazovsky1881.png",
     "title": "Ivan 1881",
     "artist": "Ivan Aivazovsky",
@@ -3664,30 +3584,6 @@
     "style": "Barbizon School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Jean-Fran%C3%A7ois_Millet%2C_peasant_and_painter%3B_%281881%29_%2814766011135%29.jpg/960px-Jean-Fran%C3%A7ois_Millet%2C_peasant_and_painter%3B_%281881%29_%2814766011135%29.jpg",
-    "title": "Jean-Fran\u00e7ois , peasant and painter; (1881) (14766011135)",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": 1881,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/960px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
-    "title": "Jean-Fran\u00e7ois - Gleaners - Google Art Project 2",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Jean-Fran%C3%A7ois_Millet_Angelus.jpg/960px-Jean-Fran%C3%A7ois_Millet_Angelus.jpg",
-    "title": "Jean-Fran\u00e7ois Angelus",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Jean-Fran%C3%A7ois_Millet_MET_DP107049.jpg/960px-Jean-Fran%C3%A7ois_Millet_MET_DP107049.jpg",
     "title": "Jean-Fran\u00e7ois MET DP107049",
     "artist": "Jean-Fran\u00e7ois Millet",
@@ -3698,14 +3594,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Jean-Fran%C3%A7ois_Millet_by_Nadar%2C_Metropolitan_Museum_copy.jpg/960px-Jean-Fran%C3%A7ois_Millet_by_Nadar%2C_Metropolitan_Museum_copy.jpg",
     "title": "Jean-Fran\u00e7ois by Nadar, Metropolitan Museum copy",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Abduction_of_the_Sabine_Women_by_Jean-Fran%C3%A7ois_Millet.png/960px-The_Abduction_of_the_Sabine_Women_by_Jean-Fran%C3%A7ois_Millet.png",
-    "title": "The Abduction of the Sabine Women by Jean-Fran\u00e7ois",
     "artist": "Jean-Fran\u00e7ois Millet",
     "year": null,
     "professional": true,
@@ -3976,14 +3864,6 @@
     "style": "Russian Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Shchedrin_self.jpg",
-    "title": "self",
-    "artist": "Sylvester Shchedrin",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Silvestr_Shchedrin_-_%D0%92%D0%B5%D1%80%D0%B0%D0%BD%D0%B4%D0%B0%2C_%D0%BE%D0%B1%D0%B2%D0%B8%D1%82%D0%B0%D1%8F_%D0%B2%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%BC_-_Google_Art_Project.jpg/960px-Silvestr_Shchedrin_-_%D0%92%D0%B5%D1%80%D0%B0%D0%BD%D0%B4%D0%B0%2C_%D0%BE%D0%B1%D0%B2%D0%B8%D1%82%D0%B0%D1%8F_%D0%B2%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%BC_-_Google_Art_Project.jpg",
     "title": "Silvestr - \u0412\u0435\u0440\u0430\u043d\u0434\u0430, \u043e\u0431\u0432\u0438\u0442\u0430\u044f \u0432\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u043c - Google Art Project",
     "artist": "Sylvester Shchedrin",
@@ -4064,14 +3944,6 @@
     "style": "Russian Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Rylov_Self.jpg",
-    "title": "Self",
-    "artist": "Arkady Rylov",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rylov_Sunset_1917.jpg/960px-Rylov_Sunset_1917.jpg",
     "title": "Sunset 1917",
     "artist": "Arkady Rylov",
@@ -4102,14 +3974,6 @@
     "year": null,
     "professional": true,
     "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gifford%2C_Sanford_Robinson_-_Tombs_of_the_Mameluks_-_19th_century.gif",
-    "title": "Gifford, Sanford Robinson - Tombs of the Mameluks - 19th century.gif",
-    "artist": "Sanford Robinson Gifford",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
   },
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Landscape_MET_DP276951.jpg/960px-Landscape_MET_DP276951.jpg",
@@ -4418,38 +4282,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Figures_in_an_Ecuadorian_Landscape_Frederic_Edwin_Church.jpg/960px-Figures_in_an_Ecuadorian_Landscape_Frederic_Edwin_Church.jpg",
     "title": "Figures in an Ecuadorian Landscape Frederic Edwin Church",
-    "artist": "Frederic Edwin Church",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Frederic_Edwin_Church_-_Chimborazo_-_canoe_1_detail_-_HNT.jpg/960px-Frederic_Edwin_Church_-_Chimborazo_-_canoe_1_detail_-_HNT.jpg",
-    "title": "Frederic Edwin Church - Chimborazo - canoe 1 detail - HNT",
-    "artist": "Frederic Edwin Church",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Frederic_Edwin_Church_-_Chimborazo_-_canoe_2_detail_-_HNT.jpg/960px-Frederic_Edwin_Church_-_Chimborazo_-_canoe_2_detail_-_HNT.jpg",
-    "title": "Frederic Edwin Church - Chimborazo - canoe 2 detail - HNT",
-    "artist": "Frederic Edwin Church",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Frederic_Edwin_Church_-_Chimborazo_-_hut_detail_-_HNT.jpg/960px-Frederic_Edwin_Church_-_Chimborazo_-_hut_detail_-_HNT.jpg",
-    "title": "Frederic Edwin Church - Chimborazo - hut detail - HNT",
-    "artist": "Frederic Edwin Church",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Frederic_Edwin_Church_-_Chimborazo_-_village_detail_-_HNT.jpg/960px-Frederic_Edwin_Church_-_Chimborazo_-_village_detail_-_HNT.jpg",
-    "title": "Frederic Edwin Church - Chimborazo - village detail - HNT",
     "artist": "Frederic Edwin Church",
     "year": null,
     "professional": true,
@@ -5468,14 +5300,6 @@
     "title": "Sanford Robinson Gifford - Near Palermo",
     "artist": "Sanford Robinson Gifford",
     "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sanford_Robinson_Gifford_-_Sketchbook%2C_page_02-_Figure_in_a_Landscape_with_Dog_-_1971.116.b_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-Sanford_Robinson_Gifford_-_Sketchbook%2C_page_02-_Figure_in_a_Landscape_with_Dog_-_1971.116.b_-_Cleveland_Museum_of_Art.tif.jpg",
-    "title": "Sanford Robinson Gifford - Sketchbook, page 02- Figure in a Landscape with Dog - 1971.116.b - Cleveland Museum of Art",
-    "artist": "Sanford Robinson Gifford",
-    "year": 1971,
     "professional": true,
     "style": "Hudson River School"
   },
@@ -7472,62 +7296,6 @@
     "style": "German Romantic"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08415.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08415.jpg",
-    "title": "Neubrandenburg (Caspar David Friedrich)-WUS08415",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08503.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08503.jpg",
-    "title": "Neubrandenburg (Caspar David Friedrich)-WUS08503",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08504.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08504.jpg",
-    "title": "Neubrandenburg (Caspar David Friedrich)-WUS08504",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08505.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08505.jpg",
-    "title": "Neubrandenburg (Caspar David Friedrich)-WUS08505",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08506.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08506.jpg",
-    "title": "Neubrandenburg (Caspar David Friedrich)-WUS08506",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08592.jpg/960px-Neubrandenburg_%28Caspar_David_Friedrich%29-WUS08592.jpg",
-    "title": "Neubrandenburg (Caspar David Friedrich)-WUS08592",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Riesengebirgslandschaft_%28Caspar_David_Friedrich%29-WUS03232.jpg/960px-Riesengebirgslandschaft_%28Caspar_David_Friedrich%29-WUS03232.jpg",
-    "title": "Riesengebirgslandschaft (Caspar David Friedrich)-WUS03232",
-    "artist": "Caspar David Friedrich",
-    "year": null,
-    "professional": true,
-    "style": "German Romantic"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Corot_-_La_Ch%C3%A2taigneraie%2C_1830_%E2%80%94_1840.jpg",
     "title": "Corot - La Ch\u00e2taigneraie, 1830 \u2014 1840",
     "artist": "Jean-Baptiste-Camille Corot",
@@ -7810,14 +7578,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/George_Inness%2C_Wood_Gatherers-_An_Autumn_Afternoon-.jpg/960px-George_Inness%2C_Wood_Gatherers-_An_Autumn_Afternoon-.jpg",
     "title": "George Inness, Wood Gatherers- An Autumn Afternoon-",
-    "artist": "George Inness",
-    "year": null,
-    "professional": true,
-    "style": "American Tonalism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/George_Inness-crop.jpg/960px-George_Inness-crop.jpg",
-    "title": "George Inness-crop",
     "artist": "George Inness",
     "year": null,
     "professional": true,
@@ -8736,14 +8496,6 @@
     "style": "American Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Juvenile_Male_Ruby-throated_Hummingbird.jpg/960px-Juvenile_Male_Ruby-throated_Hummingbird.jpg",
-    "title": "Juvenile Male Ruby-throated Hummingbird",
-    "artist": "Martin Johnson Heade",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Martin_Johnson_Heade%2C_%22Black-throated_Mango%2C_from_The_Gems_of_Brazil%22_2006_83v1.jpg",
     "title": "Martin Johnson Heade, \"Black-throated Mango, from The Gems of Brazil\" 2006 83v1",
     "artist": "Martin Johnson Heade",
@@ -8768,14 +8520,6 @@
     "style": "American Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Martin_Johnson_Heade%2C_%22Ruby-throated_Hummingbird%2C_from_The_Gems_of_Brazil%22_2006_91v1.jpg",
-    "title": "Martin Johnson Heade, \"Ruby-throated Hummingbird, from The Gems of Brazil\" 2006 91v1",
-    "artist": "Martin Johnson Heade",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Martin_Johnson_Heade%2C_%22Snowcap%2C_from_The_Gems_of_Brazil%22_2006_96v1.jpg",
     "title": "Martin Johnson Heade, \"Snowcap, from The Gems of Brazil\" 2006 96v1",
     "artist": "Martin Johnson Heade",
@@ -8786,14 +8530,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Martin_Johnson_Heade%2C_%22Study_of_Silver_Vase%22_2007_197v1.jpg",
     "title": "Martin Johnson Heade, \"Study of Silver Vase\" 2007 197v1",
-    "artist": "Martin Johnson Heade",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Martin_Johnson_Heade%2C_%22Study_of_Varied_Flowers_with_a_Hummingbird%22_2007_205v1.jpg/960px-Martin_Johnson_Heade%2C_%22Study_of_Varied_Flowers_with_a_Hummingbird%22_2007_205v1.jpg",
-    "title": "Martin Johnson Heade, \"Study of Varied Flowers with a Hummingbird\" 2007 205v1",
     "artist": "Martin Johnson Heade",
     "year": null,
     "professional": true,
@@ -8864,24 +8600,8 @@
     "style": "American Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Martin_Johnson_Heade_-_Ruby-throated_Hummingbird_-_2006.91_-_Crystal_Bridges_Museum_of_American_Art.jpg",
-    "title": "Martin Johnson Heade - Ruby-throated Hummingbird - 2006.91 - Crystal Bridges Museum of American Art",
-    "artist": "Martin Johnson Heade",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Martin_Johnson_Heade_-_Tufted_Coquette_-_2006.86_-_Crystal_Bridges_Museum_of_American_Art.jpg",
     "title": "Martin Johnson Heade - Tufted Coquette - 2006.86 - Crystal Bridges Museum of American Art",
-    "artist": "Martin Johnson Heade",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Martin_Johnson_Heade_-_Two_Hummingbirds_with_Their_Young_-_2011.127.1_-_Yale_University_Art_Gallery.jpg/960px-Martin_Johnson_Heade_-_Two_Hummingbirds_with_Their_Young_-_2011.127.1_-_Yale_University_Art_Gallery.jpg",
-    "title": "Martin Johnson Heade - Two Hummingbirds with Their Young - 2011.127.1 - Yale University Art Gallery",
     "artist": "Martin Johnson Heade",
     "year": null,
     "professional": true,
@@ -10184,34 +9904,10 @@
     "style": "Barbizon School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jean-Francois-Millet-the-angelus.jpg/960px-Jean-Francois-Millet-the-angelus.jpg",
-    "title": "Jean-Francois-Millet-the-angelus",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Jean-Fran%C3%A7ois_Millet_%28II%29_-_The_Gleaners_-_WGA15691.jpg/960px-Jean-Fran%C3%A7ois_Millet_%28II%29_-_The_Gleaners_-_WGA15691.jpg",
-    "title": "Jean-Fran\u00e7ois Millet (II) - The Gleaners - WGA15691",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jean-Fran%C3%A7ois_Millet_-_Femme_filature_%281855-60%29.jpg/960px-Jean-Fran%C3%A7ois_Millet_-_Femme_filature_%281855-60%29.jpg",
     "title": "Jean-Fran\u00e7ois Millet - Femme filature (1855-60)",
     "artist": "Jean-Fran\u00e7ois Millet",
     "year": 1855,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg/960px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg",
-    "title": "Jean-Fran\u00e7ois Millet - Gleaners - Google Art Project",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
     "professional": true,
     "style": "Barbizon School"
   },
@@ -10276,22 +9972,6 @@
     "title": "Jean - Fran\u00e7ois Millet - Selbstbildnis - 7948 - Kunsthistorisches Museum",
     "artist": "Jean-Fran\u00e7ois Millet",
     "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jean-Fran%C3%A7ois_Millet%2C_peasant_and_painter%3B_%281881%29_%2814595523189%29.jpg/960px-Jean-Fran%C3%A7ois_Millet%2C_peasant_and_painter%3B_%281881%29_%2814595523189%29.jpg",
-    "title": "Jean-Fran\u00e7ois Millet, peasant and painter; (1881) (14595523189)",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": 1881,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Jean-Fran%C3%A7ois_Millet%2C_peasant_and_painter%3B_%281881%29_%2814766015445%29.jpg/960px-Jean-Fran%C3%A7ois_Millet%2C_peasant_and_painter%3B_%281881%29_%2814766015445%29.jpg",
-    "title": "Jean-Fran\u00e7ois Millet, peasant and painter; (1881) (14766015445)",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": 1881,
     "professional": true,
     "style": "Barbizon School"
   },
@@ -10418,14 +10098,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/High_Street%2C_Oxford_%28painting%29%2C_by_Turner_%281810%29.JPG/960px-High_Street%2C_Oxford_%28painting%29%2C_by_Turner_%281810%29.JPG",
     "title": "High Street, Oxford (painting), by Turner (1810)",
-    "artist": "J.M.W. Turner",
-    "year": 1810,
-    "professional": true,
-    "style": "English Landscape"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/High_Street%2C_Oxford_%28painting%29%2C_by_Turner_%281810%29_crop.jpg/960px-High_Street%2C_Oxford_%28painting%29%2C_by_Turner_%281810%29_crop.jpg",
-    "title": "High Street, Oxford (painting), by Turner (1810) crop",
     "artist": "J.M.W. Turner",
     "year": 1810,
     "professional": true,
@@ -11240,14 +10912,6 @@
     "style": "Barbizon School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Charles_Fran%C3%A7ois_Daubigny_-_Landscape_with_Gleaners_-_Walters_3735.jpg/960px-Charles_Fran%C3%A7ois_Daubigny_-_Landscape_with_Gleaners_-_Walters_3735.jpg",
-    "title": "Charles Fran\u00e7ois Daubigny - Landscape with Gleaners - Walters 3735",
-    "artist": "Charles-Fran\u00e7ois Daubigny",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/1991_CPA_6288-6289_and_label.jpg/960px-1991_CPA_6288-6289_and_label.jpg",
     "title": "1991 CPA 6288-6289 and label",
     "artist": "Sylvester Shchedrin",
@@ -11706,14 +11370,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Mikhail_Nesterov_-_Nun_-_M.Ob.905_-_National_Museum_in_Warsaw.jpg/960px-Mikhail_Nesterov_-_Nun_-_M.Ob.905_-_National_Museum_in_Warsaw.jpg",
     "title": "Mikhail Nesterov - Nun - M.Ob.905 - National Museum in Warsaw",
-    "artist": "Mikhail Nesterov",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mikhail_Nesterov_009_-_variation_%28GRM%29.jpg/960px-Mikhail_Nesterov_009_-_variation_%28GRM%29.jpg",
-    "title": "Mikhail Nesterov 009 - variation (GRM)",
     "artist": "Mikhail Nesterov",
     "year": null,
     "professional": true,

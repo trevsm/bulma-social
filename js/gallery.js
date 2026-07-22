@@ -8,10 +8,60 @@
   const lightboxClose = document.getElementById("lightbox-close");
   const countEl = document.getElementById("count");
 
-  const CACHE_KEY = "artwork-dimensions-v1";
+  const CACHE_KEY = "artwork-dimensions-v2";
   let artworks = [];
   let activeFilter = "All";
   let dimensionCache = loadDimensionCache();
+
+  const JUNK_PATTERNS = [
+    /\.pdf(?:\.|$|\?)/i,
+    /\blumin\b|changan/i,
+    /barcode|qr.?code|isbn/i,
+    /(?:^|[\s_\-(])(?:00[1-9])(?:[\s_\-)]|\.jpg|$)/i,
+    /(?:^|[\s_\-])(?:detail|deta|crop|verso|back|x2_deta|fxd)(?:[\s_\-]|\.|$)/i,
+    /-wus\d{5}/i,
+    /sketchbook,\s*page/i,
+    /_self\.|\/self\.jpg|self[- ]portrait|autoportrait/i,
+    /savrasov_photo|ivan_aivazovsky\.jpg/i,
+    /peasant and painter/i,
+    /hummingbird|interrupted reading|abduction of the sabine|\bgleaners\b|\bangelus\b/i,
+  ];
+
+  const MUSEUM_ID_EXCEPTION = /200[12][-.]|nga\s*\d{5}|met\s*dp|11001|57002|2007\.|1971\./i;
+
+  function isJunkArtwork(art) {
+    const blob = `${art.title || ""} ${art.src || ""} ${art.artist || ""}`;
+    const title = (art.title || "").trim().toLowerCase();
+
+    if (JUNK_PATTERNS.some((pattern) => pattern.test(blob))) {
+      if (/00[1-9]/.test(blob) && MUSEUM_ID_EXCEPTION.test(blob)) {
+        return false;
+      }
+      if (/(?:detail|deta|crop|verso|back|x2_deta|fxd)/i.test(blob) && /cropsey/i.test(blob)) {
+        return false;
+      }
+      return true;
+    }
+
+    if (title === "photo" && /photo/i.test(art.src || "")) return true;
+    if (title === "ivan" && /ivan_aivazovsky\.jpg/i.test(art.src || "")) return true;
+    if (title === "self") return true;
+
+    return false;
+  }
+
+  function dedupeArtworks(items) {
+    const seen = new Set();
+    const unique = [];
+
+    items.forEach((art) => {
+      if (seen.has(art.src)) return;
+      seen.add(art.src);
+      unique.push(art);
+    });
+
+    return unique;
+  }
 
   function loadDimensionCache() {
     try {
@@ -32,7 +82,8 @@
   async function loadArtworks() {
     const res = await fetch("data/artworks.json");
     if (!res.ok) throw new Error("Could not load artworks.json");
-    artworks = await res.json();
+    const raw = await res.json();
+    artworks = dedupeArtworks(raw.filter((art) => !isJunkArtwork(art)));
   }
 
   function loadImageDimensions(src) {
