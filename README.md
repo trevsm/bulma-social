@@ -1,30 +1,29 @@
-# Bulma-Social
+# artwork
 
 Social Sign-In Buttons made in pure CSS based on [Bulma](http://bulma.io/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
-[![npm](https://img.shields.io/npm/v/bulma-social.svg)](https://npmjs.com/package/bulma-social)
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-[Check out the live demo!](http://aldi.github.io/bulma-social)
+[Check out the live demo!](https://github.com/trevsm/artwork)
 
-![bulma-social-image](assets/images/bulma-social.png)
+![artwork-image](assets/images/bulma-social.png)
 
 ## Installation
 
 ### HTML
 
-Include the `bulma-social.min.css` in your project.
+Include the `artwork.min.css` in your project.
 
 ### NPM
 
 ```sh
-npm install bulma-social
+npm install artwork
 ```
 
 After installation, you can import the CSS file into your project using this snippet:
 
 ```sh
-import 'bulma-social/bin/bulma-social.min.css'
+import 'artwork/bin/artwork.min.css'
 ```
 
 ## Available classes
@@ -76,4 +75,4 @@ import 'bulma-social/bin/bulma-social.min.css'
 
 ## Licence 📜
 
-Code released under [the MIT license](https://github.com/aldi/bulma-social/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/trevsm/artwork/blob/master/LICENSE).

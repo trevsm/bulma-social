@@ -1,22 +1,22 @@
 {
-  "name": "bulma-social",
+  "name": "artwork",
   "description": "Social Sign-In Buttons made in pure CSS based on Bulma and Font Awesome!",
   "author": "Aldi Duzha",
   "version": "1.1.0",
   "keywords": [
     "bulma",
     "social",
-    "bulma-social",
+    "artwork",
     "social-buttons"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aldi/bulma-social.git"
+    "url": "git://github.com/trevsm/artwork.git"
   },
   "bugs": {
-    "url": "https://github.com/aldi/bulma-social/issues"
+    "url": "https://github.com/trevsm/artwork/issues"
   },
-  "homepage": "https://aldi.github.io/bulma-social",
+  "homepage": "https://github.com/trevsm/artwork",
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.8.0",
