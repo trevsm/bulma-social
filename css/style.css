@@ -105,6 +105,11 @@ main {
   column-gap: var(--gap);
 }
 
+.gallery.gallery-loading {
+  visibility: hidden;
+  min-height: 60vh;
+}
+
 @media (max-width: 1200px) {
   .gallery { columns: 4 240px; }
 }
@@ -137,9 +142,17 @@ main {
 .card img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
   vertical-align: middle;
   background: #e8e2d8;
+}
+
+.card-media {
+  width: 100%;
+  background: #e8e2d8;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .card-overlay {

@@ -8,13 +8,79 @@
   const lightboxClose = document.getElementById("lightbox-close");
   const countEl = document.getElementById("count");
 
+  const CACHE_KEY = "artwork-dimensions-v1";
   let artworks = [];
   let activeFilter = "All";
+  let dimensionCache = loadDimensionCache();
+
+  function loadDimensionCache() {
+    try {
+      return JSON.parse(sessionStorage.getItem(CACHE_KEY) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function saveDimensionCache() {
+    try {
+      sessionStorage.setItem(CACHE_KEY, JSON.stringify(dimensionCache));
+    } catch {
+      /* ignore quota errors */
+    }
+  }
 
   async function loadArtworks() {
     const res = await fetch("data/artworks.json");
     if (!res.ok) throw new Error("Could not load artworks.json");
     artworks = await res.json();
+  }
+
+  function loadImageDimensions(src) {
+    if (dimensionCache[src]) {
+      return Promise.resolve(dimensionCache[src]);
+    }
+
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.decoding = "async";
+      img.onload = () => {
+        const dims = {
+          width: img.naturalWidth || 4,
+          height: img.naturalHeight || 3,
+        };
+        dimensionCache[src] = dims;
+        resolve(dims);
+      };
+      img.onerror = () => {
+        const dims = { width: 4, height: 3 };
+        dimensionCache[src] = dims;
+        resolve(dims);
+      };
+      img.src = src;
+    });
+  }
+
+  async function preloadDimensions(items) {
+    const pending = items.filter((item) => !dimensionCache[item.src]);
+    if (!pending.length) return;
+
+    const concurrency = 32;
+    let index = 0;
+    let loaded = items.length - pending.length;
+
+    const workers = Array.from({ length: concurrency }, async () => {
+      while (index < pending.length) {
+        const current = pending[index++];
+        await loadImageDimensions(current.src);
+        loaded += 1;
+        if (loading && loaded % 24 === 0) {
+          loading.textContent = `Loading paintings… ${loaded.toLocaleString()} / ${items.length.toLocaleString()}`;
+        }
+      }
+    });
+
+    await Promise.all(workers);
+    saveDimensionCache();
   }
 
   function getStyles() {
@@ -34,10 +100,10 @@
       btn.type = "button";
       btn.className = "filter-btn" + (style === activeFilter ? " active" : "");
       btn.textContent = style;
-      btn.addEventListener("click", () => {
+      btn.addEventListener("click", async () => {
         activeFilter = style;
         renderFilters();
-        renderGallery();
+        await renderGallery();
       });
       filtersEl.appendChild(btn);
     });
@@ -58,22 +124,41 @@
     document.body.style.overflow = "";
   }
 
-  function renderGallery() {
+  async function renderGallery() {
     gallery.innerHTML = "";
+    gallery.classList.add("gallery-loading");
+
     const items = filtered();
+    loading.classList.remove("hidden");
+    loading.textContent = `Loading paintings… 0 / ${items.length.toLocaleString()}`;
+
+    await preloadDimensions(items);
+
+    loading.classList.add("hidden");
+    gallery.classList.remove("gallery-loading");
+
+    const fragment = document.createDocumentFragment();
 
     items.forEach((art) => {
+      const dims = dimensionCache[art.src] || { width: 4, height: 3 };
+
       const card = document.createElement("article");
       card.className = "card";
       card.tabIndex = 0;
       card.setAttribute("role", "button");
       card.setAttribute("aria-label", `${art.title} by ${art.artist}`);
 
+      const media = document.createElement("div");
+      media.className = "card-media";
+      media.style.aspectRatio = `${dims.width} / ${dims.height}`;
+
       const img = document.createElement("img");
       img.src = art.src;
       img.alt = `${art.title} by ${art.artist}`;
       img.loading = "lazy";
       img.decoding = "async";
+      img.width = dims.width;
+      img.height = dims.height;
 
       const overlay = document.createElement("div");
       overlay.className = "card-overlay";
@@ -81,7 +166,8 @@
         `<p class="card-title">${escapeHtml(art.title)}</p>` +
         `<p class="card-meta">${escapeHtml(art.artist)}${art.year ? ", " + art.year : ""}${art.style ? " · " + escapeHtml(art.style) : ""}</p>`;
 
-      card.appendChild(img);
+      media.appendChild(img);
+      card.appendChild(media);
       card.appendChild(overlay);
 
       card.addEventListener("click", () => openLightbox(art));
@@ -92,8 +178,10 @@
         }
       });
 
-      gallery.appendChild(card);
+      fragment.appendChild(card);
     });
+
+    gallery.appendChild(fragment);
   }
 
   function escapeHtml(str) {
@@ -111,13 +199,12 @@
   });
 
   loadArtworks()
-    .then(() => {
-      loading.classList.add("hidden");
+    .then(async () => {
       if (countEl) {
         countEl.textContent = `${artworks.length.toLocaleString()} paintings`;
       }
       renderFilters();
-      renderGallery();
+      await renderGallery();
     })
     .catch((err) => {
       loading.textContent = "Failed to load gallery. Check data/artworks.json.";
