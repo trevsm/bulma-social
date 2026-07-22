@@ -36,7 +36,13 @@
           Hidden <span id="hidden-count">0</span>
         </button>
       </div>
-      <div class="filters" id="filters" aria-label="Filter by style"></div>
+      <div class="filters-shell">
+        <div class="filters-mobile">
+          <label for="filter-select">Category</label>
+          <select id="filter-select" class="filter-select" aria-label="Filter by category"></select>
+        </div>
+        <div class="filters filters-chips" id="filters" aria-label="Filter by style"></div>
+      </div>
     </div>
   </header>
 

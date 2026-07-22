@@ -46,6 +46,7 @@
   const gallery = document.getElementById("gallery");
   const loading = document.getElementById("loading");
   const filtersEl = document.getElementById("filters");
+  const filterSelect = document.getElementById("filter-select");
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxCaption = document.getElementById("lightbox-caption");
@@ -399,18 +400,33 @@
     return visible.filter((a) => a.style === activeFilter);
   }
 
+  async function setActiveFilter(style) {
+    activeFilter = style;
+    renderFilters();
+    await renderGallery();
+  }
+
   function renderFilters() {
+    const styles = getStyles();
+
+    if (filterSelect) {
+      filterSelect.innerHTML = "";
+      styles.forEach((style) => {
+        const option = document.createElement("option");
+        option.value = style;
+        option.textContent = style;
+        option.selected = style === activeFilter;
+        filterSelect.appendChild(option);
+      });
+    }
+
     filtersEl.innerHTML = "";
-    getStyles().forEach((style) => {
+    styles.forEach((style) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "filter-btn" + (style === activeFilter ? " active" : "");
       btn.textContent = style;
-      btn.addEventListener("click", async () => {
-        activeFilter = style;
-        renderFilters();
-        await renderGallery();
-      });
+      btn.addEventListener("click", () => setActiveFilter(style));
       filtersEl.appendChild(btn);
     });
   }
@@ -527,6 +543,12 @@
   if (hiddenPanel) {
     hiddenPanel.addEventListener("click", (e) => {
       if (e.target === hiddenPanel) hiddenPanel.close();
+    });
+  }
+
+  if (filterSelect) {
+    filterSelect.addEventListener("change", () => {
+      setActiveFilter(filterSelect.value);
     });
   }
 
