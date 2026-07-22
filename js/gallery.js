@@ -8,7 +8,7 @@
   const lightboxClose = document.getElementById("lightbox-close");
   const countEl = document.getElementById("count");
 
-  const CACHE_KEY = "artwork-dimensions-v2";
+  const CACHE_KEY = "artwork-dimensions-v3";
   let artworks = [];
   let activeFilter = "All";
   let dimensionCache = loadDimensionCache();
@@ -20,11 +20,16 @@
     /(?:^|[\s_\-(])(?:00[1-9])(?:[\s_\-)]|\.jpg|$)/i,
     /(?:^|[\s_\-])(?:detail|deta|crop|verso|back|x2_deta|fxd)(?:[\s_\-]|\.|$)/i,
     /-wus\d{5}/i,
-    /sketchbook,\s*page/i,
+    /sketchbook|sketch book/i,
+    /letters?\s+of|letter\s+of|correspondence|handwritten|manuscript|epistle/i,
+    /1860-s|alexey-savrasov-1860|savrasov-1860-s/i,
+    /by nadar|by rockwood|by william merritt chase|peasant and painter/i,
     /_self\.|\/self\.jpg|self[- ]portrait|autoportrait/i,
-    /savrasov_photo|ivan_aivazovsky\.jpg/i,
-    /peasant and painter/i,
-    /hummingbird|interrupted reading|abduction of the sabine|\bgleaners\b|\bangelus\b/i,
+    /savrasov_photo|ivan_aivazovsky\.jpg|ivan_aivazovsky1881\.png/i,
+    /signed palettes|new york tribune|fred harvey|\bnby \d|tribune, august/i,
+    /hummingbird|interrupted reading|abduction of the sabine|\bgleaners\b|\bangelus\b|dressing for the carnival|the source met/i,
+    /installation view|gallery view|exhibition view|overall\.jpg|room view|people viewing/i,
+    /\bmrs\.|portrait of|manuel garcia|edwin forrest/i,
   ];
 
   const MUSEUM_ID_EXCEPTION = /200[12][-.]|nga\s*\d{5}|met\s*dp|11001|57002|2007\.|1971\./i;
@@ -46,6 +51,11 @@
     if (title === "photo" && /photo/i.test(art.src || "")) return true;
     if (title === "ivan" && /ivan_aivazovsky\.jpg/i.test(art.src || "")) return true;
     if (title === "self") return true;
+    if (/^1860-s$|^alexey--1860-s$/.test(title)) return true;
+    if (/^jean-baptiste-camille( c1850)?$/.test(title)) return true;
+    if (/^ivan 1881$/.test(title)) return true;
+    if (/^landscape met dp|^worthington met dp|^jean-fran\u00e7ois met dp/i.test(title)) return true;
+    if (/^\-ivan constantinovich aivasovski\- met dp/i.test(title)) return true;
 
     return false;
   }

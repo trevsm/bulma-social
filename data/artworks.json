@@ -2880,22 +2880,6 @@
     "style": "Russian Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Alexey-savrasov-1860-s.jpg",
-    "title": "Alexey--1860-s",
-    "artist": "Alexei Savrasov",
-    "year": 1860,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Savrasov-1860-s.jpg",
-    "title": "1860-s",
-    "artist": "Alexei Savrasov",
-    "year": 1860,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Savrasov-1890-s.jpg/960px-Savrasov-1890-s.jpg",
     "title": "1890-s",
     "artist": "Alexei Savrasov",
@@ -3074,22 +3058,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Corot_concert_champ%C3%AAtre_Cond%C3%A9_Chantilly.jpg/960px-Corot_concert_champ%C3%AAtre_Cond%C3%A9_Chantilly.jpg",
     "title": "concert champ\u00eatre Cond\u00e9 Chantilly",
-    "artist": "Jean-Baptiste-Camille Corot",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jean-Baptiste-Camille_Corot.png/960px-Jean-Baptiste-Camille_Corot.png",
-    "title": "Jean-Baptiste-Camille",
-    "artist": "Jean-Baptiste-Camille Corot",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Jean-Baptiste-Camille_Corot_c1850.png/960px-Jean-Baptiste-Camille_Corot_c1850.png",
-    "title": "Jean-Baptiste-Camille c1850",
     "artist": "Jean-Baptiste-Camille Corot",
     "year": null,
     "professional": true,
@@ -3352,30 +3320,6 @@
     "style": "Hudson River School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Worthington_Whittredge_MET_DP201959.jpg/960px-Worthington_Whittredge_MET_DP201959.jpg",
-    "title": "Worthington MET DP201959",
-    "artist": "Worthington Whittredge",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Worthington_Whittredge_by_Rockwood.png",
-    "title": "Worthington by Rockwood",
-    "artist": "Worthington Whittredge",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Worthington_Whittredge_by_William_Merritt_Chase%2C_c1890.jpg",
-    "title": "Worthington by William Merritt Chase, c1890",
-    "artist": "Worthington Whittredge",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Hugh_Bolton_Jones_-_NARA_-_20807378_%28cropped%29.jpg/960px-Hugh_Bolton_Jones_-_NARA_-_20807378_%28cropped%29.jpg",
     "title": "Hugh Bolton - NARA - 20807378 (cropped)",
     "artist": "Hugh Bolton Jones",
@@ -3496,14 +3440,6 @@
     "style": "English Landscape"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/-Ivan_Constantinovich_Aivasovski-_MET_DP332588.jpg/960px--Ivan_Constantinovich_Aivasovski-_MET_DP332588.jpg",
-    "title": "-Ivan Constantinovich Aivasovski- MET DP332588",
-    "artist": "Ivan Aivazovsky",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/A_Ship_of_the_Russian_Navy_off_the_Coast_%28by_Ivan_Aivazovsky%29.jpg/960px-A_Ship_of_the_Russian_Navy_off_the_Coast_%28by_Ivan_Aivazovsky%29.jpg",
     "title": "A Ship of the Russian Navy off the Coast (by Ivan )",
     "artist": "Ivan Aivazovsky",
@@ -3522,14 +3458,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Crimean_views_%28Aivazovsky%29.jpg/960px-Crimean_views_%28Aivazovsky%29.jpg",
     "title": "Crimean views ()",
-    "artist": "Ivan Aivazovsky",
-    "year": null,
-    "professional": true,
-    "style": "Russian Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ivan_Aivazovsky1881.png",
-    "title": "Ivan 1881",
     "artist": "Ivan Aivazovsky",
     "year": null,
     "professional": true,
@@ -3578,22 +3506,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/J.F._Millet.-_Farmer_grafting_a_tree_%28sans_cadre1%29.jpg/960px-J.F._Millet.-_Farmer_grafting_a_tree_%28sans_cadre1%29.jpg",
     "title": "J.F. .- Farmer grafting a tree (sans cadre1)",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Jean-Fran%C3%A7ois_Millet_MET_DP107049.jpg/960px-Jean-Fran%C3%A7ois_Millet_MET_DP107049.jpg",
-    "title": "Jean-Fran\u00e7ois MET DP107049",
-    "artist": "Jean-Fran\u00e7ois Millet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Jean-Fran%C3%A7ois_Millet_by_Nadar%2C_Metropolitan_Museum_copy.jpg/960px-Jean-Fran%C3%A7ois_Millet_by_Nadar%2C_Metropolitan_Museum_copy.jpg",
-    "title": "Jean-Fran\u00e7ois by Nadar, Metropolitan Museum copy",
     "artist": "Jean-Fran\u00e7ois Millet",
     "year": null,
     "professional": true,
@@ -3974,14 +3886,6 @@
     "year": null,
     "professional": true,
     "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Landscape_MET_DP276951.jpg/960px-Landscape_MET_DP276951.jpg",
-    "title": "Landscape MET DP276951",
-    "artist": "Unknown",
-    "year": null,
-    "professional": false,
-    "style": "Landscape"
   },
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Landscape_with_Houses%2C_by_Unknown_Artist.jpg",
@@ -4808,14 +4712,6 @@
     "style": "Hudson River School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mrs._Winfield_Scott%2C_by_Asher_Brown_Durand%2C_MET_DP254451.jpg/960px-Mrs._Winfield_Scott%2C_by_Asher_Brown_Durand%2C_MET_DP254451.jpg",
-    "title": "Mrs. Winfield Scott, by Asher Brown Durand, MET DP254451",
-    "artist": "Asher Brown Durand",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Religious_Monument_by_Asher_Brown_Durand.jpg/960px-Religious_Monument_by_Asher_Brown_Durand.jpg",
     "title": "Religious Monument by Asher Brown Durand",
     "artist": "Asher Brown Durand",
@@ -5244,14 +5140,6 @@
     "title": "Sanford Robinson Gifford - Lake Geneva - 56.166 - Rhode Island School of Design Museum",
     "artist": "Sanford Robinson Gifford",
     "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sanford_Robinson_Gifford_-_Mrs._Sanford_Robinson_Gifford_%28Mary_Cecilia_Gifford%29_-_1986.184_-_Art_Institute_of_Chicago.jpg/960px-Sanford_Robinson_Gifford_-_Mrs._Sanford_Robinson_Gifford_%28Mary_Cecilia_Gifford%29_-_1986.184_-_Art_Institute_of_Chicago.jpg",
-    "title": "Sanford Robinson Gifford - Mrs. Sanford Robinson Gifford (Mary Cecilia Gifford) - 1986.184 - Art Institute of Chicago",
-    "artist": "Sanford Robinson Gifford",
-    "year": 1986,
     "professional": true,
     "style": "Hudson River School"
   },
@@ -7704,24 +7592,8 @@
     "style": "Hudson River School"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Harry_Watrous_and_Thomas_Moran_signed_palettes.jpg",
-    "title": "Harry Watrous and Thomas Moran signed palettes",
-    "artist": "Thomas Moran",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Moran_Thomas_Children_of_the_Mountain.jpg/960px-Moran_Thomas_Children_of_the_Mountain.jpg",
     "title": "Moran Thomas Children of the Mountain",
-    "artist": "Thomas Moran",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Petrified_Forest%2C_on_the_Santa_Fe%2C_After_painting_by_Thomas_Moran%2C_Fred_Harvey_%28NBY_17678%29.jpg",
-    "title": "Petrified Forest, on the Santa Fe, After painting by Thomas Moran, Fred Harvey (NBY 17678)",
     "artist": "Thomas Moran",
     "year": null,
     "professional": true,
@@ -7732,14 +7604,6 @@
     "title": "Sunrise at Mid-Ocean by Thomas Moran, 1907",
     "artist": "Thomas Moran",
     "year": 1907,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Yellowstone_Canyon_by_Moran%2C_New_York_Tribune%2C_August_24%2C_1919.jpg/960px-The_Yellowstone_Canyon_by_Moran%2C_New_York_Tribune%2C_August_24%2C_1919.jpg",
-    "title": "The Yellowstone Canyon by Moran, New York Tribune, August 24, 1919",
-    "artist": "Thomas Moran",
-    "year": 1919,
     "professional": true,
     "style": "Hudson River School"
   },
@@ -8216,22 +8080,6 @@
     "style": "American Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Dressing_for_the_Carnival_MET_136236%282%29.jpg/960px-Dressing_for_the_Carnival_MET_136236%282%29.jpg",
-    "title": "Dressing for the Carnival MET 136236(2)",
-    "artist": "Winslow Homer",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Dressing_for_the_Carnival_MET_DP140859.jpg/960px-Dressing_for_the_Carnival_MET_DP140859.jpg",
-    "title": "Dressing for the Carnival MET DP140859",
-    "artist": "Winslow Homer",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lost_on_the_Grand_Banks_by_Winslow_Homer_1885.jpg/960px-Lost_on_the_Grand_Banks_by_Winslow_Homer_1885.jpg",
     "title": "Lost on the Grand Banks by Winslow Homer 1885",
     "artist": "Winslow Homer",
@@ -8244,22 +8092,6 @@
     "title": "The Brierwood Pipe by Winslow Homer, 1864",
     "artist": "Winslow Homer",
     "year": 1864,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Carnival_1877_Winslow_Homer.jpg/960px-The_Carnival_1877_Winslow_Homer.jpg",
-    "title": "The Carnival 1877 Winslow Homer",
-    "artist": "Winslow Homer",
-    "year": 1877,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Winslow_Homer_-_Dressing_for_the_Carnival.jpg/960px-Winslow_Homer_-_Dressing_for_the_Carnival.jpg",
-    "title": "Winslow Homer - Dressing for the Carnival",
-    "artist": "Winslow Homer",
-    "year": null,
     "professional": true,
     "style": "American Realism"
   },
@@ -9472,14 +9304,6 @@
     "style": "American Realism"
   },
   {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/John_Singer_Sargent_-_Mrs._Fiske_Warren_%28Gretchen_Osgood%29_and_Her_Daughter_Rachel_-_Google_Art_Project.jpg/960px-John_Singer_Sargent_-_Mrs._Fiske_Warren_%28Gretchen_Osgood%29_and_Her_Daughter_Rachel_-_Google_Art_Project.jpg",
-    "title": "John Singer Sargent - Mrs. Fiske Warren (Gretchen Osgood) and Her Daughter Rachel - Google Art Project",
-    "artist": "John Singer Sargent",
-    "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/John_Singer_Sargent_-_On_His_Holidays%2C_Norway.jpg/960px-John_Singer_Sargent_-_On_His_Holidays%2C_Norway.jpg",
     "title": "John Singer Sargent - On His Holidays, Norway",
     "artist": "John Singer Sargent",
@@ -9524,14 +9348,6 @@
     "title": "John Singer Sargent A Street in Venice",
     "artist": "John Singer Sargent",
     "year": null,
-    "professional": true,
-    "style": "American Realism"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Manuel_Garcia_%28John_Singer_Sargent_1905%29.png",
-    "title": "Manuel Garcia (John Singer Sargent 1905)",
-    "artist": "John Singer Sargent",
-    "year": 1905,
     "professional": true,
     "style": "American Realism"
   },
@@ -9794,14 +9610,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pauvresse_de_village_%28Courbet%29.jpg/960px-Pauvresse_de_village_%28Courbet%29.jpg",
     "title": "Pauvresse de village (Courbet)",
-    "artist": "Gustave Courbet",
-    "year": null,
-    "professional": true,
-    "style": "Barbizon School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/The_Source_MET_DP124050.jpg/960px-The_Source_MET_DP124050.jpg",
-    "title": "The Source MET DP124050",
     "artist": "Gustave Courbet",
     "year": null,
     "professional": true,
@@ -11962,14 +11770,6 @@
   {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/David_Johnson_Eagle_Cliff_Amon_Carter_Museum.jpg/960px-David_Johnson_Eagle_Cliff_Amon_Carter_Museum.jpg",
     "title": "David Johnson Eagle Cliff Amon Carter Museum",
-    "artist": "David Johnson",
-    "year": null,
-    "professional": true,
-    "style": "Hudson River School"
-  },
-  {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Johnson%2C_David_-_Edwin_Forrest.png",
-    "title": "Johnson, David - Edwin Forrest",
     "artist": "David Johnson",
     "year": null,
     "professional": true,
