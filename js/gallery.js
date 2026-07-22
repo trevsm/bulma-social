@@ -60,7 +60,7 @@
   const hiddenExport = document.getElementById("hidden-export");
   const hiddenClear = document.getElementById("hidden-clear");
 
-  const CACHE_KEY = "artwork-dimensions-v4";
+  const CACHE_KEY = "artwork-dimensions-v5";
   const HIDDEN_STORAGE_KEY = "artwork-user-hidden-v1";
   let artworks = [];
   let hiddenMeta = new Map();
