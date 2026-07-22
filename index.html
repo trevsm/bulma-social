@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>artwork — Wall Art Inspiration</title>
+  <meta name="description" content="Realist and romantic landscape paintings for large-format wall art — Hudson River School, Russian Realism, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>artwork</h1>
+      <p class="tagline">Realist &amp; romantic landscapes for large wall pieces — think Thomas Cole, Ivan Shishkin, and similar</p>
+      <div class="filters" id="filters" aria-label="Filter by style"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="gallery" id="gallery" aria-live="polite"></div>
+    <p class="loading" id="loading">Loading paintings…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Images from Wikimedia Commons (public domain). Add your own in <code>data/artworks.json</code>.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <figure class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
