@@ -142,25 +142,6 @@ main {
   background: #e8e2d8;
 }
 
-.chip {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 2;
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 0.3rem 0.55rem;
-  border-radius: 6px;
-  pointer-events: none;
-}
-
-.chip.pro {
-  background: var(--pro-bg);
-  color: var(--pro-text);
-}
-
 .card-overlay {
   position: absolute;
   inset: 0;
