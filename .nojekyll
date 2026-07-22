@@ -1,0 +1,2 @@
+# Skip Jekyll processing — serve static files as-is
+.nojekyll
