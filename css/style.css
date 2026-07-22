@@ -151,7 +151,34 @@ main {
 }
 
 @media (max-width: 640px) {
-  .gallery { columns: 2 160px; }
+  main {
+    padding: 1rem 0.75rem 1.5rem;
+  }
+
+  .site-header {
+    padding: 1.75rem 1rem 1.5rem;
+  }
+
+  .gallery {
+    columns: 1;
+    column-gap: 0;
+  }
+
+  .card {
+    margin-bottom: 1.25rem;
+  }
+
+  .card-overlay {
+    opacity: 1;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-meta {
+    font-size: 0.85rem;
+  }
 }
 
 .card {
